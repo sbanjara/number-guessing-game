@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+   <head>
+
+      <title>CS 425 Lab #2B Demo</title>
+      <meta charset="utf-8">
+      <script type="text/javascript" src="Lab2B.js"></script>
+
+   </head>
+
+   <body>
+
+		<form name="inputform" id="inputform" action="#">
+
+			<fieldset>
+
+				<label for="input">Please guess a number:</label>
+				<input type="text" name="input" id="input">
+
+				<input type="button" value="Submit!" onclick="Lab2B.processInput();">
+
+			</fieldset>
+
+		</form>
+
+		<div id="output"></div>
+
+		<script type="text/javascript">
+
+			Lab2B.init();
+		 
+		</script>
+
+   </body>
+
+</html>
